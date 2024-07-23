@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deeptargya Chowdhury's YouTube Channel</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        header nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/random/1600x900?tech') no-repeat center center/cover;
+            color: white;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero a {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .video {
+            background-color: #fff;
+            margin: 1rem;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1 1 300px;
+            max-width: 45%;
+        }
+        .video iframe {
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deeptargya Chowdhury's YouTube Channel</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Welcome to Deeptargya Chowdhury's YouTube Channel</h1>
+        <a href="https://www.youtube.com/@Deeptargyachowdhury" target="_blank">Subscribe Now</a>
+    </section>
+
+    <section class="content">
+        <h2>Featured Videos</h2>
+        <div class="videos">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>Video Title 1</h3>
+                <p>Description of Video 1.</p>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>Video Title 2</h3>
+                <p>Description of Video 2.</p>
+            </div>
+            <!-- Add more videos as needed -->
+        </div>
+    </section>
+
+    <section class="content" id="about">
+        <h2>About Me</h2>
+        <p>Information about Deeptargya Chowdhury and the channel.</p>
+    </section>
+
+    <section class="content" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: deeptargya@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Deeptargya Chowdhury's YouTube Channel</p>
+    </footer>
+</body>
+</html>
